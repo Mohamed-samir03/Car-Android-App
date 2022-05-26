@@ -10,7 +10,7 @@
 </div>
 <p> Add New Car</p>
 <div align=center>
-        <img src="https://user-images.githubusercontent.com/81251707/170481642-0369a0a9-0d41-4749-83f1-2419ad7d0a1e.jpg" alt="Display Cars" height="400" width="200">
+        <img src="https://user-images.githubusercontent.com/81251707/170485765-cd64b78a-bfa7-4379-996d-cb9dfddb86e2.jpg" alt="Display Cars" height="400" width="200">
 </div>
 <p> Display one car with details Car</p>
 <div align=center>

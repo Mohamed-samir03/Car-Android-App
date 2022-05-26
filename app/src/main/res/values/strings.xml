@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Car App</string>
+    <string name="et_model_hint">Model</string>
+    <string name="et_color_hint">Color</string>
+    <string name="et_dpl_hint">DistancePerLetter</string>
+    <string name="et_description_hint">Description</string>
+</resources>

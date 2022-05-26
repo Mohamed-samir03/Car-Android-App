@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/custom_car_elevation"
+    app:cardCornerRadius="@dimen/custom_car_radius"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/custom_car_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_car_iv_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="centerCrop"
+           android:src="@drawable/carphoto" />
+
+        <TextView
+            android:id="@+id/custom_car_tv_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/textView_padding"
+            android:text="Model"
+            android:textStyle="bold"
+            android:textSize="@dimen/custom_car_textSize_model"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/custom_car_iv" />
+
+        <TextView
+            android:id="@+id/custom_car_tv_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_color"
+            android:drawablePadding="@dimen/ic_padding"
+            android:gravity="clip_vertical"
+            android:paddingVertical="@dimen/textView_padding"
+            android:paddingStart="@dimen/textView_padding"
+            android:text="Color"
+            android:textSize="@dimen/custom_car_textSize_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/custom_car_tv_model" />
+
+        <TextView
+            android:id="@+id/custom_car_tv_dpl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_fuel_station"
+            android:drawablePadding="@dimen/ic_padding"
+            android:gravity="clip_vertical"
+            android:paddingVertical="@dimen/textView_padding"
+            android:paddingStart="@dimen/textView_padding"
+            android:text="Dpl"
+            android:textSize="@dimen/custom_car_textSize_dpl"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/custom_car_tv_color"
+            app:layout_constraintTop_toBottomOf="@+id/custom_car_tv_model" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

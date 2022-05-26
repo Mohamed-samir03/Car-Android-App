@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontel_margin">16dp</dimen>
+    <dimen name="main_fab_margin">16dp</dimen>
+    <dimen name="ic_padding">6dp</dimen>
+    <dimen name="custom_car_elevation">10dp</dimen>
+    <dimen name="custom_car_radius">10dp</dimen>
+    <dimen name="custom_car_iv_height">100dp</dimen>
+    <dimen name="custom_car_textSize_model">18sp</dimen>
+    <dimen name="custom_car_textSize_dpl" >16sp</dimen>
+    <dimen name="custom_car_textSize_color">16sp</dimen>
+    <dimen name="custom_car_tv_color_width">200dp</dimen>
+    <dimen name="textView_padding">6dp</dimen>
+</resources>
